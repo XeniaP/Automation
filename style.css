@@ -1,0 +1,49 @@
+body{
+  background-color: #8080801f;
+}
+
+div{
+  background-color: white;
+  align-content: center;
+}
+
+.content div{
+  margin: 0 auto;
+  background-color: #80808017;
+  padding: 3%;
+}
+
+.content h1{
+  text-align: left;
+}
+
+.content input{
+  width: 80%;
+}
+
+#item{
+  width: 80%;
+}
+
+#box1{
+  display: grid;
+  grid-template-areas: "left right";
+}
+
+.button{
+  background-color: #9b0303;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-align: right;
+}
+
+h1{
+  text-decoration-color: white;
+  text-align: center;
+  font-style: italic;
+  font-size: calc(1em + 1vw);
+}
